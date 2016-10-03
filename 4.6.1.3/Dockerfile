@@ -1,8 +1,9 @@
 FROM resin/armv7hf-debian-qemu
 
-MAINTAINER Jo Shields <jo.shields@xamarin.com>
-
-#based on dockerfile by Michael Friis <friism@gmail.com>
+MAINTAINER Jannis Schaefer <j.schaefer@estwx.de>
+# from https://github.com/mono/docker
+# by Jo Shields <jo.shields@xamarin.com>
+# based on dockerfile by Michael Friis <friism@gmail.com>
 
 RUN [ "cross-build-start" ]
 

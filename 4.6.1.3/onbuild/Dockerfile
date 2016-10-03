@@ -1,4 +1,4 @@
-FROM mono:4.6.1.3
+FROM rpidocker/rpi-mono:4.6.1.3
 
 MAINTAINER Jo Shields <jo.shields@xamarin.com>
 
